@@ -23,7 +23,6 @@ public class PhotoActivity extends ActionBarActivity {
     private static final TimeInterpolator sAccelerator = new AccelerateInterpolator();
     static final int duration = 500;
 
-
     private ColorMatrix colorizerMatrix = new ColorMatrix();
     ColorDrawable mBackground;
     int mLeftDelta;
