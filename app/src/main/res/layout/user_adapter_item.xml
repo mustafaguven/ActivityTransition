@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/red"
+    android:gravity="left|center"
+    android:padding="10dip">
+
+    <ImageView
+        android:id="@+id/imgUser"
+        android:layout_width="50dp"
+        android:layout_height="50dip"
+        android:src="@drawable/bankadagitti"
+        android:layout_marginRight="10dip"
+        android:scaleType="fitCenter"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/lblId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="id here"
+        android:layout_toRightOf="@id/imgUser"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/lblFullname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fullname here"
+        android:layout_toRightOf="@id/imgUser"
+        android:layout_below="@id/lblId"/>
+</RelativeLayout>

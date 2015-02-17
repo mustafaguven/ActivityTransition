@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TestProject</string>
+
+    <string name="hello_world">Banka da gitti amk!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_photo">Photo</string>
+</resources>
